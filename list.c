@@ -60,10 +60,24 @@ void * nextList(List * list) {
 }
 
 void * lastList(List * list) {
+    if (list->tail != NULL)
+    {
+        list->current = list->tail;
+
+        return list->current->data;
+    }
+
     return NULL;
 }
 
 void * prevList(List * list) {
+    if (list->current != NULL && list->current->prev != NULL)
+    {
+        list->current = list->current->prev;
+
+        return list->current->data;
+    }
+
     return NULL;
 }
 
