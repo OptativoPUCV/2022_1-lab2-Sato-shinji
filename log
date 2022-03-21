@@ -64,3 +64,9 @@ Sun Mar 20 21:16:51 HSP 2022:
  1 file changed, 5 insertions(+)
  tests:  0|0
 80d6209
+Sun Mar 20 21:19:19 HSP 2022: 
+ list.c | 4 ++++
+ 1 file changed, 4 insertions(+)
+ tests:  9|3
+total_score: 35/70
+2405846
